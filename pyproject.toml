@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "nick_prefect"
+version = "0.1.0"
+description = "Testing our Prefect"
+authors = ["nick-roberson <nicholas.roberson.95@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+prefect = "^2.14.20"
+httpx = "^0.26.0"
+black = "^24.1.1"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
